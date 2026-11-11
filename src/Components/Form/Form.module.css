@@ -1,4 +1,4 @@
-.h2 {
+/* .h2 {
   font-size: 72px;
   background: -webkit-linear-gradient(180deg,#f3b9cb, #ffdccb,#fdf0f9, #afebf3, #8ed5f3, #b5a2d4);
   -webkit-background-clip: text;
@@ -7,7 +7,20 @@
   width: fit-content;
 
   margin: 20px auto;
+} */
+
+.h2 {
+  font-size: 72px;
+  background: linear-gradient(270deg, #f3b9cb, #ffdccb, #fdf0f9, #afebf3, #8ed5f3, #b5a2d4);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  width: fit-content;
+  margin: 20px auto;
 }
+
 .form {
     display: flex;
     flex-direction: column;

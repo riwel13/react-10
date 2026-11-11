@@ -12,8 +12,10 @@ background-color: #fdf0f9;
 
 .h2 {
   font-size: 32px;
-  background: -webkit-linear-gradient(180deg,#f3b9cb, #ffdccb,#fdf0f9, #afebf3, #8ed5f3, #b5a2d4);
+ background: linear-gradient(90deg, #f3b9cb, #ffdccb, #fdf0f9, #afebf3, #8ed5f3, #b5a2d4);
+  background-clip: text;
   -webkit-background-clip: text;
+  color: transparent;
   -webkit-text-fill-color: transparent;
 }
 
