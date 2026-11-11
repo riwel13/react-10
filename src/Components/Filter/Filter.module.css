@@ -1,0 +1,26 @@
+.input {
+    font-size: 18px;
+color: #1f4c5f;
+  width: 500px;
+  height: 30px;
+  border: 3px solid #b5a2d4;
+  border-radius: 30px;
+text-align: center;
+background-color: #fdf0f9;
+
+}
+
+.h2 {
+  font-size: 32px;
+  background: -webkit-linear-gradient(180deg,#f3b9cb, #ffdccb,#fdf0f9, #afebf3, #8ed5f3, #b5a2d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 40px 0;
+}
